@@ -1,0 +1,21 @@
+{
+    "name": "aux_sistemas/fundamentos",
+    "description": "Ejemplo de crear un proyecto con composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Zabala",
+            "email": "czabala847@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Text\\" : "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {}
+}
