@@ -1,0 +1,19 @@
+{
+    "name": "carlos_zabala/frameworks_php",
+    "description": "Proyecto b\u0000sico, uso de frameworks en PHP",
+    "authors": [
+        {
+            "name": "Carlos Zabala",
+            "email": "czabala847@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
