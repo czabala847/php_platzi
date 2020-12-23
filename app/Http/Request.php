@@ -48,8 +48,8 @@ class Request
         $method = $this->getMethod();
 
         $response = call_user_func([
-            new $controller .
-                $method
+            new $controller,
+            $method
         ]);
 
         $response->send();
