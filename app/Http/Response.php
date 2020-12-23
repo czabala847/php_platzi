@@ -21,6 +21,6 @@ class Response
         $view = $this->getView();
         $content = file_get_contents(__DIR__ . "/../../views/$view.php");
 
-        require_once __DIR__ . "/../../views/$view.php";
+        require_once __DIR__ . "/../../views/layout.php";
     }
 }
