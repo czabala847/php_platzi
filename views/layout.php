@@ -13,8 +13,14 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
             <a href="home" class="navbar-brand h1">FW</a>
-            <a href="contact" class="navbar-brand h1">Contact</a>
-            <a href="service" class="navbar-brand h1">Services</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="service" class="nav-link">Services</a>
+                </li>
+            </ul>
         </nav>
     </div>
 
